@@ -18,9 +18,21 @@
             width: 210mm; /* A4 width */
             min-height: 297mm; /* A4 height */
             margin: 0 auto;
-            padding: 20mm; /* Restored original padding */
+            padding: 20mm; /* Default padding for desktop */
             background-color: white;
-            box-shadow: none; /* Removed shadow */
+            box-shadow: none;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 10px; /* Reduced padding for mobile */
+                margin: 0;
+                min-height: auto;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+            }
         }
         @media print {
             body {
@@ -30,6 +42,7 @@
                 width: 100%;
                 min-height: auto;
                 padding: 0;
+                margin: 0;
                 box-shadow: none;
             }
         }
