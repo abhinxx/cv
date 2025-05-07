@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 5.5rem;
   font-weight: 800;
   text-transform: uppercase;
   line-height: 1.1;
@@ -39,6 +39,31 @@ h2 {
   border-bottom: 1px solid #000;
   width: 100%;
   padding-bottom: 1.5rem;
+}
+
+/* Special styling for hero section */
+#hero h1 {
+  font-size: 5.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+#hero h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Section header styling */
+section h2 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
 }
 
 h3 {
@@ -247,11 +272,19 @@ section:nth-child(even) {
   }
   
   h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   
   h2 {
     font-size: 3.5rem;
+  }
+  
+  #hero h1 {
+    font-size: 4.5rem;
+  }
+  
+  #hero h2 {
+    font-size: 2rem;
   }
 }
 
@@ -261,11 +294,19 @@ section:nth-child(even) {
   }
   
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   
   h2 {
-    font-size: 2.8rem;
+    font-size: 3rem;
+  }
+  
+  #hero h1 {
+    font-size: 4rem;
+  }
+  
+  #hero h2 {
+    font-size: 1.8rem;
   }
 }
 
@@ -275,10 +316,18 @@ section:nth-child(even) {
   }
   
   h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   
   h2 {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
+  }
+  
+  #hero h1 {
+    font-size: 3.5rem;
+  }
+  
+  #hero h2 {
+    font-size: 1.6rem;
   }
 }
