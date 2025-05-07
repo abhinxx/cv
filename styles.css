@@ -50,7 +50,7 @@ h2 {
 }
 
 #hero h2 {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
   border-bottom: none;
@@ -64,6 +64,12 @@ section h2 {
   font-size: 4.5rem;
   font-weight: 800;
   margin-bottom: 3rem;
+}
+
+/* Remove bottom border from specific section headers */
+.no-border-heading h2 {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 h3 {
@@ -195,16 +201,24 @@ section::after {
 
 /* Company and school logo styling */
 .logo-container {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
-  background-color: white;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #000;
+  border: none;
   box-shadow: none;
   overflow: hidden;
+  padding: 0;
+}
+
+.logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 6px;
 }
 
 /* Hero section styling */
