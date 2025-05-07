@@ -1,0 +1,155 @@
+{
+    "header": {
+      "name": "ABHINAV SINGH",
+      "title": "Product | Strategy | Business",
+      "address": "1 Rue de la Libération, 78350 Jouy-en-Josas",
+      "linkedin": "https://linkedin.com/in/abhinxx",
+      "email": "abhinav.singh@hec.edu",
+      "phone": "+33 759513020"
+    },
+    "professionalSummary": "Dynamic Product and Strategy professional with 3+ years of experience leading international teams and managing multiple products across Southeast Asia (Thailand, Singapore, Vietnam, and India). Specialized in building AI-powered automation solutions and intelligent systems. Passionate about leveraging technical expertise in AI agents and automation to drive impactful product innovations.",
+    "workVisaEligibility": {
+      "current": "France, EU",
+      "sponsorshipSupported": ["UK (JENZA)", "US (FACC NY)"],
+      "other": ["India", "Thailand"]
+    },
+    "education": [
+      {
+        "institution": "HEC Paris",
+        "degree": "Masters in Management (MIM)",
+        "details": "#2 World Rank, GMAT: 760, Excellence Scholarship",
+        "date": "Aug 2024"
+      },
+      {
+        "institution": "Delhi Technological University",
+        "degree": "B.Tech Software Engineering",
+        "details": "#1 Startup & 2 Research Papers Published",
+        "date": "Jul 2018"
+      }
+    ],
+    "specialisedTraining": [
+      "GenAI (Google-Kagle 2025)",
+      "LVMH Luxury Management (HEC Paris, 2025)",
+      "Blockchain Basic (University of Buffalo, 2021)",
+      "Negotiation & Strategy (University of Michigan, 2021)",
+      "Digital Product Management (University of Virginia, 2020)"
+    ],
+    "workExperience": [
+      {
+        "company": "Ampverse Group",
+        "role": "Product Lead",
+        "location": "Bangkok, Thailand",
+        "duration": "Jan 2023 - July 2024 (1 year and 6 months)",
+        "details": [
+          "Launched College Rivals in India across 25+ colleges in 5+ cities, securing 80,000+ registrations and over 100 million views—now Ampverse Holdings' fastest-growing IP.",
+          "Promoted to Product Lead in 5 months for exceptional performance; led cross-functional teams across Thailand, Philippines, India, and Singapore to deliver innovative products and projects.",
+          "Led tech consulting during Ampverse's acquisition of Championfy; managed tech handover and worked on an esports phone launch with HMD Global.",
+          "Collaborated with sales and marketing to streamline data entries and Pipedrive workflows by developing an internal dashboard, boosting operational efficiency by 40%."
+        ]
+      },
+      {
+        "company": "Asva Labs",
+        "role": "Product Manager (Consulting)",
+        "location": "Bengaluru, India",
+        "duration": "Jan 2022 - Jun 2022 (5 months)",
+        "details": [
+          "Consulted oversight to define product requirements and strategic objectives, taking a digital music marketplace from ideation to MVP launch.",
+          "Developed comprehensive project plans and guided cross-functional collaboration (Research, UX, Dev), optimizing workflows and achieving an MVP release one month ahead of schedule.",
+          "Advised on adopting pre-built marketplace infrastructure, reducing development labor by 25% and aligning product strategy with organizational goals."
+        ]
+      },
+      {
+        "company": "KardiaChain",
+        "role": "Product Manager",
+        "location": "Ho Chi Minh City, Vietnam",
+        "duration": "Nov 2021 - Dec 2022 (1 year and 1 month)",
+        "details": [
+          "Led the update of the decentralized exchange (Kaidex), prioritizing core features, fixing bugs, and conducting testing; introduced advanced order functionality as a primary offering.",
+          "Managed an international cross-functional team of 10 for Vietnam's largest Layer 1 Blockchain (2022).",
+          "Increased team productivity by 20% through effective task management, daily reports, and weekly catch-ups.",
+          "Analyzed user metrics and feedback to optimize developer documentation, reducing support queries by 50%."
+        ]
+      }
+    ],
+    "entrepreneurialSideProjects": [
+      {
+        "project": "HEC Cover Letter Generator",
+        "role": "Founder",
+        "duration": "March 2025 – Present",
+        "details": [
+          "Built AI-powered cover letter generator with OpenAI GPT integration, multiple writing tones, and document caching",
+          "Architected Python/Flask backend with Google Cloud, Stripe payments, and OAuth - implemented secure API handling"
+        ]
+      },
+      {
+        "project": "HEC Events",
+        "role": "Founder",
+        "duration": "Jan 2025 – Present",
+        "details": [
+          "Launched the largest events community group at HEC Paris with over 400+ members/subscribers.",
+          "Automated 90% of the workflow, including email event scraping, website event scraping, AI filtering, and integration with an Airtable database."
+        ]
+      },
+      {
+        "project": "HEC Product Club",
+        "role": "Co-President",
+        "duration": "Jan 2025 – Present",
+        "details": [
+          "Founded the first Product Club for Masters in Management students at HEC, planning 10+ events."
+        ]
+      },
+      {
+        "project": "Boba Digital",
+        "role": "Business Strategy",
+        "duration": "Jul 2021 – Dec 2022",
+        "details": [
+          "Served as strategic advisor and project manager at a Web3 marketing agency specializing in SEO, content, growth, and ads.",
+          "Guided 15+ high-value clients on digital growth strategies while overseeing a monthly budget of over USD 50,000."
+        ]
+      },
+      {
+        "project": "Follege",
+        "role": "Founder",
+        "duration": "Nov 2019 – Aug 2021",
+        "details": [
+          "Founded a startup for college students to discover local events.",
+          "Launched a mobile app and grew a community of over 15,000 students via WhatsApp and Instagram."
+        ]
+      },
+      {
+        "project": "Trading Manager & UI/UX Freelancer",
+        "role": "Freelancer",
+        "duration": "Sep 2019 – Jun 2021",
+        "details": [
+          "Contributed to 20+ side projects and startups with graphic design, wireframes, UX designs, and website development.",
+          "Managed a crypto trading fund of over USD 100,000; participated in ICO/Seed investments in 5+ crypto projects, including Mina Protocol and Star Atlas."
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "title": "Defi Integrated Blockchain Wallet (Library Herald, 2022)",
+        "url": "https://www.researchgate.net/publication/362735704_Defi_integrated_blockchain_wallet_with_automated_transactions"
+      },
+      {
+        "title": "AI in Placement Sector (SRFLIS, 2019)",
+        "url": "https://www.researchgate.net/profile/Vanita-Khanchandani/publication/332572255_Awareness_and_Use_of_Reference_Management_Tools_Indian_Institute_of_Technology_Delhi_IIT-Delhi"
+      }
+    ],
+    "skillset": {
+      "languages": {
+        "English": "C2",
+        "Hindi": "C2",
+        "Punjabi": "B2",
+        "French": "A2",
+        "Japanese": "A1"
+      },
+      "coreSkills": "Product & Project Management, UI/UX Design, Product Launch, Scrum & Agile Development (CI/CD, DevOps), Data Analysis, Marketing, A/B Testing, Competitive Analysis, Customer Feedback Loops, KPIs & OKRs, User Research, Feature Adoption Metrics",
+      "technical": "Python, Swift, Javascript, SQL, Firebase, Github, AWS, Google Cloud, REST & GraphQL, AI agents, Generative AI, Solidity, EVM, Prompt Engineering, dApps & Web3 wallets",
+      "tools": "Cursor, Balsamiq, Figma, Adobe XD, Wix, Webflow, Bubble, Excel, Office Suite, Asana, Jira, Mixpanel, Trello, Hubspot, Canva, Hugging Face, Google Analytics, Retool, BI, Zapier, N8N, Make.com",
+      "finance": "Portfolio Management, Blockchain, Crypto, Stocks, FX, Tradingview, Trading Strategies, Technical & Fundamental Analysis, Options, Futures Derivatives, Pinescript, Dune, DEX, DeFi, Staking & Yield Farming",
+      "hobbies": "Cats, Motorbiking, Content Creation, Martial Arts (Muay Thai, Boxing), Volleyball, Photography, Backpacking, Swimming, Cafe-hopping, Video Games, Painting",
+      "funFacts": "Guinness World Record for biggest Gin & Tonic drink with Apechain, beating Snoop Dog (14/02/2025)"
+    }
+  }
+  

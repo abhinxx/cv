@@ -1,0 +1,284 @@
+/* Custom styles beyond Tailwind */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base layout - full width container with centered content */
+body {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Typography - Magazine/Newspaper Inspired */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  display: block;
+  line-height: 1.1;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Section styling with full-width backgrounds */
+section {
+  margin-bottom: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+section::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #000;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.section-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 4rem;
+  position: relative;
+}
+
+/* Section divider - now extends full width */
+.section-divider {
+  width: 100vw;
+  height: 1px;
+  background-color: #000;
+  margin: 3rem 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Custom transitions */
+.transition {
+  transition: all 0.3s ease;
+}
+
+/* Timeline styling for experience and projects */
+.timeline-item {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 6rem;
+}
+
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #000;
+  z-index: 1;
+}
+
+.timeline-item:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 24px;
+  bottom: -24px;
+  width: 2px;
+  background-color: #ccc;
+}
+
+.timeline-item:last-child:after {
+  display: none;
+}
+
+/* Card styling - magazine style */
+.card-hover {
+  border: none;
+  border-bottom: 1px solid #eee;
+  border-radius: 0;
+  padding: 2rem 0;
+  transition: transform 0.3s ease;
+  background: transparent;
+  box-shadow: none;
+}
+
+.card-hover:hover {
+  transform: translateX(10px);
+  box-shadow: none;
+}
+
+/* Magazine-style container for highlighted sections */
+.magazine-container {
+  border: 1px solid #000;
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: #fff;
+  box-shadow: 5px 5px 0px #000;
+}
+
+/* Skill badge styling */
+.skill-badge {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #f3f3f3;
+  margin: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.skill-badge:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* Company and school logo styling */
+.logo-container {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+/* Hero section styling */
+#hero {
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+/* Navigation styling - fixed with full width border */
+nav {
+  width: 100%;
+  box-shadow: none;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+
+nav a {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+}
+
+/* Alternating sections - applying full width backgrounds */
+section:nth-child(odd) {
+  background-color: #fff;
+}
+
+section:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Skills section */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.skills-grid .skill-badge {
+  background-color: #f3f3f3;
+  color: #000;
+  padding: 1.2rem 2rem;
+  font-size: 1.2rem;
+}
+
+/* Language bar styling */
+.language-bar {
+  height: 4px;
+  background-color: #f3f3f3;
+  margin-bottom: 2rem;
+}
+
+.language-bar-fill {
+  height: 100%;
+  background-color: #000;
+}
+
+/* Responsive design fixes */
+@media (max-width: 1024px) {
+  .section-content {
+    padding: 0 2rem;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-content {
+    padding: 0 1.5rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .section-content {
+    padding: 0 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  }
+}
