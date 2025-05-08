@@ -144,13 +144,28 @@ section::after {
   position: absolute;
   left: 5px;
   top: 24px;
-  bottom: -24px;
+  bottom: -30px;
   width: 2px;
   background-color: #ccc;
 }
 
+/* Make sure the last timeline item doesn't have a vertical line extending beyond it */
 .timeline-item:last-child:after {
   display: none;
+}
+
+/* Override for the KardiaChain entry to force the vertical line to appear */
+.timeline-item-with-line:after {
+  display: block !important;
+  height: 100%;
+  bottom: -15px;
+}
+
+/* Ensure consistent spacing between timeline items */
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
 /* Card styling - magazine style */
@@ -344,4 +359,32 @@ section:nth-child(even) {
   #hero h2 {
     font-size: 1.6rem;
   }
+}
+
+/* Newspaper style profile container */
+.newspaper-profile {
+  position: relative;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Playfair Display', serif;
+}
+
+.newspaper-profile::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: repeating-linear-gradient(
+    90deg,
+    #000,
+    #000 2px,
+    transparent 2px,
+    transparent 10px
+  );
+  opacity: 0.1;
 }
